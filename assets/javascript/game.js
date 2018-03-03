@@ -33,6 +33,7 @@ console.log("console");
             guessesLeft--;
             console.log(guessesLeft);
         }
+        }
 
         if(guessesLeft === 0) {
             losses--;
@@ -41,12 +42,13 @@ console.log("console");
             console.log('You Lost');
             console.log(losses);
         }
-    }
+    var html = "<h1> The Psychic Game </h1> " + "<p> Guess What Letter I am thinking of</p>" + "<p> Wins: </p>" + " <p> Losses: </p>" + "<p> Guesses Left:</p>" + "<p> Your Guesses So Far:</p>";
+    };
 
 
-}
 
-var html = "<h1> The Psychic Game </h1> " + "<p> Guess What Letter I am thinking of</p>" + "<p> Wins: </p>" + " <p> Losses: </p>" + "<p> Guesses Left:</p>" + "<p> Your Guesses So Far:</p>";
+
+
 
 
 
